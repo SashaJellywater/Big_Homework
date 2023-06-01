@@ -79,4 +79,5 @@ PrintArray(userArray);
 int symbolLimit = Prompt("Введите максимальную длину строк для нового массива: ");
 int resultSize = HowLongArray(userArray, symbolLimit);
 string[] resultArray = SelectArray(userArray, resultSize, symbolLimit);
+Console.WriteLine($"Массив строк из {symbolLimit} и менее символов: ");
 PrintArray(resultArray);
